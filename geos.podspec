@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   }
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.7'
-  s.preserve_paths = 'geos/**/*.{h,inl}'
+  s.preserve_paths = 'geos/**/*.{h,in,inl}'
   s.source_files = 'geos/{include,src,capi}/**/*.cpp', 'geos/capi/geos_c.h', 'geos/include/geos/export.h'
   s.exclude_files = 'geos/**/*tests*'
   s.public_header_files = 'geos/capi/geos_c.h', 'geos/include/geos/export.h'
